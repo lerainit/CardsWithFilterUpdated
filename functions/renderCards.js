@@ -20,11 +20,7 @@ const renderCards = ( )=>{
 
  cardsArr.then(result =>{ console.log(result)
 
-if(result === []){
-  const titleForBegin =document.createElement('h1')
-  document.querySelector('.container').append( titleForBegin)
-  document.querySelector('h1').innerHTML = 'There is no items added'
-}
+
 
 result.forEach(el =>{
 
