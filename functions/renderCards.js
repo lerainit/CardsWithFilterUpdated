@@ -28,9 +28,8 @@ if(result === []){
 
 result.forEach(el =>{
 
-    if(el.doctor === 'cardiologist'){
        new Card(el.id,el.name,el.doctor,el.purpose,el.description,el.urgency).render('.container')
-    }})
+    })
 
 
 
