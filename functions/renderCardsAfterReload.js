@@ -28,10 +28,6 @@ function renderCardsAfterReload(){
      const filter = new Filter()
      filter.render('.filter_container2')
     
-    if(localStorage.getItem('newcard')){
-
-     
-    }
     
     }
 
